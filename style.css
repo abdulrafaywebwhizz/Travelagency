@@ -1,0 +1,318 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    border-bottom: 4px solid white;
+    position: relative;
+    margin-top: -20px;
+    padding:  0 50px;
+    box-sizing: border-box;
+}
+
+nav > ul{
+    position: absolute;
+    top: 13px;
+    right: 30px;
+}
+
+nav > ul > li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin-right: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav > ul > li:hover{
+    color: #F15757;
+}
+
+nav > .logo{
+    margin-top: 20px;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/id/1264374994/photo/blank-tv-screen-in-modern-dark-interior-with-gray-sofa-in-darkness-mock-up-front-view-tv-in.webp?b=1&s=170667a&w=0&k=20&c=wYheRqh3Fm9vc47EXxZr6rnfzHv4g2AvP1_Q85yjV9M=);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding-top: 240px;
+}
+
+.home > h1{
+    color: white;
+    font-size: 70px;
+    margin-left: 15px;
+}
+
+.home > h1 > span{
+    color: #F15757;
+}
+
+.home > p{
+    color: white;
+    width: 50%;
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin: 40px;
+    margin-right: 0px;
+    margin-left: 15px;
+
+}
+
+.btn > button {
+    padding: 7px 30px;
+    margin: 8px;
+    margin-left: 15px;
+    background-color: #F15757;
+    color: white;
+    cursor: pointer;
+    border: 5px solid #F15757;
+    border-top-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.btn > button:hover{
+    background-color: white;
+    color: #F15757;
+    border-color: white;
+}
+
+.about{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: #faf7e4;;
+}
+
+.image{
+    height: 300px;
+    overflow: hidden;
+}
+
+.image img{
+    height: 100%;
+    border-radius: 25px;
+}
+
+
+.text{
+    width: 600px;
+}
+
+h1 > span{
+    color: #F15757;
+}
+
+.text > button{
+    padding: 7px 30px;
+    margin: 8px;
+    background-color: #F15757;
+    color: white;
+    cursor: pointer;
+    border: 5px solid #F15757;
+    border-top-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+.text > button:hover{
+    background-color: white;
+    color: #F15757;
+    border-color: white;
+}
+
+.places{
+    background-color: black;
+
+}
+
+.cities{
+    display: flex;
+    margin-left: 250px;
+    
+}
+
+.dubai > img{
+    border-bottom-right-radius: 19px;
+    width: 96%;
+    margin-left: 6px;
+    margin-top: 5px;
+    align-self: center;
+}
+
+.places > h1{
+    color: #F15757;
+    text-align: center;
+}
+
+.places > p{
+    color: white;
+    text-align: center;
+}
+
+.dubai{
+    border: 2px solid white;
+    width: 25%;
+}
+
+.dubai > h2{
+    color: #F15757;
+    text-align: center;
+    font-family: cursive;
+}
+
+.dubai > p{
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+.dubai > button{
+    padding: 7px 30px;
+    margin: 8px;
+     background-color: #F15757;
+    color: white;
+    cursor: pointer;
+    border: 5px solid #F15757;
+    border-top-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+
+.dubai > button:hover{
+    background-color: white;
+    color: #F15757;
+    border-color: aliceblue;
+}
+
+
+.turki{
+    border: 2px solid white;
+    width: 25%;
+}
+
+.turki > img{
+    border-bottom-right-radius: 19px;
+    width: 96%;
+    margin-left: 6px;
+    margin-top: 5px;
+    align-self: center;
+}
+
+.turki > h2{
+    color: #F15757;
+    text-align: center;
+    font-family: cursive;
+}
+
+.turki > p{
+    color: white;
+    text-align: center;
+}
+
+.turki > button{
+    padding: 7px 30px;
+    margin: 8px;
+     background-color: #F15757;
+    color: white;
+    cursor: pointer;
+    border: 5px solid #F15757;
+    border-top-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+
+.turki > button:hover{
+    background-color: white;
+    color: #F15757;
+    border-color: aliceblue;
+}
+
+.qatar{
+    border: 2px solid white;
+    width: 25%;
+}
+
+.qatar > img{
+    border-bottom-right-radius: 19px;
+    width: 96%;
+    margin-left: 6px;
+    margin-top: 5px;
+    align-self: center;
+}
+
+.qatar > h2{
+    color: #F15757;
+    text-align: center;
+    font-family: cursive;
+}
+
+.qatar > p{
+    color: white;
+    text-align: center;
+}
+
+.qatar > button{
+    padding: 7px 30px;
+    margin: 8px;
+     background-color: #F15757;
+    color: white;
+    cursor: pointer;
+    border: 5px solid #F15757;
+    border-top-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+
+.qatar > button:hover{
+    background-color: white;
+    color: #F15757;
+    border-color: aliceblue;
+}
+
+.ending{
+    display: flex;
+    padding: 50px;
+    background-color: #faf7e4;
+    text-align: center;
+}
+
+.top > h1{
+    color: #F15757;
+    text-align: center;
+}
+
+.quick > h1{
+    color: #F15757;
+}
+
+.contact > h1{
+    color: #F15757;
+}
+
+
+
+
+
+
+
